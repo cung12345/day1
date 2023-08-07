@@ -1,0 +1,108 @@
+body {
+    background: #1C233D;
+    display: block;
+}
+.row{ 
+    display: flex;
+    justify-content: space-between;
+}
+.float_start_flex{ justify-content: space-between;}
+.content{
+    display: flex;
+
+}
+#Sapphire{
+    color: #E5E5E5;
+    font-family: Space Grotesk;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+a.float_start_flex {
+    color: #E5E5E5;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#input{
+    border-radius: 5px;
+border: 1px solid #E5E5E5;
+}
+#sign_in{
+    display: inline-flex;
+padding: 8px 31px 9px 29px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: linear-gradient(55deg, rgba(191, 196, 238, 0.09) 15.52%, #C367E6 58.75%, rgba(190, 206, 239, 0.00) 100%);
+}
+
+#Discover{
+    color: #FFF;
+font-family: Space Grotesk;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#Digital{
+    padding-top: 20px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#btn_Discover{
+    padding-top: 20px;
+    display: inline-flex;
+padding: 10px 48px 10px 47px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: linear-gradient(55deg, rgba(191, 196, 238, 0.09) 15.52%, #C367E6 58.75%, rgba(190, 206, 239, 0.00) 100%);
+}
+.content-end{
+    padding-top: 20px;
+}
+
+.text_count{
+    color: #FFF;
+font-family: Space Grotesk;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.text_title_count{
+    color: #E5E5E5;
+font-family: Space Grotesk;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#img_mmonkey{
+    width: 404px;
+height: 494px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #30384D;
+}
+
+#img{
+    border-radius: 4.894px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
